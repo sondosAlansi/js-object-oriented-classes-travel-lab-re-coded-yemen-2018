@@ -27,6 +27,9 @@ class Route{
   return numBlock;
   }
   estimatedTime(){
+    let h=new Date();
+    let peakHour=h.get
+  }
     
   }
   
