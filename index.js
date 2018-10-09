@@ -31,12 +31,12 @@ class Route{
     let peakHour=h.getHours();
     let numerMinuts;
     
-    if(peakHour===12 || peakHour===13 || peakHour===14){
-      numerMinuts=this.blocksTravelled();
+    if(peakHour===12){
+      numerMinuts=this.blocksTravelled()/3;
       return numerMinuts;
     }
     else{
-       numerMinuts=this.blocksTravelled();
+       numerMinuts=this.blocksTravelled()/2;
       return numerMinuts;
     }
   }
