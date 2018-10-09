@@ -23,7 +23,7 @@ class Route{
    
    let hor=eastWest.indexOf(this.endingLocation.horizontal)-
    eastWest.indexOf(this.beginningLocation.horizontal);
-  return hor;
+  return numB;
   }
   
 }
