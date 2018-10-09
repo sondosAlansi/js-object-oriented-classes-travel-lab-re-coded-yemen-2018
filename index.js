@@ -26,12 +26,11 @@ class Route{
    let numBlock=ver+hor;
   return numBlock;
   }
-  estimatedTime(){
-    let h=new Date();
-    let peakHour=h.getHours();
+  estimatedTime(peakHour){
+    
     let numerMinuts;
     
-   if(peakHour>=12 && peakHour<15){
+   if(peakHour){
       numerMinuts=this.blocksTravelled()/2;
       return numerMinuts;
     }
