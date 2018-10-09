@@ -32,7 +32,7 @@ class Route{
     let numerMinuts;
     
     if(peakHour===12){
-      numerMinuts=this.blocksTravelled()/3;
+      numerMinuts=this.blocksTravelled();
       return numerMinuts;
     }
     else{
