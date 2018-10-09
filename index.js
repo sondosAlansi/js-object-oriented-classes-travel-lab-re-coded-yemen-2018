@@ -37,7 +37,7 @@ class Route{
     }
     else{
        numerMinuts=this.blocksTravelled()/3;
-      return Math.floor(numerMinuts);
+      return Math.ceil(numerMinuts);
     }
     
   }
