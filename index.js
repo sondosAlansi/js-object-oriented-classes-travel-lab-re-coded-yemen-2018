@@ -21,8 +21,8 @@ class Route{
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
    let ver= Number.parseInt(this.endingLocation.vertical)- Number.parseInt(this.beginningLocation.vertical);
    
-   let hor=this.endingLocation.h
-  return ver;
+   let hor=this.endingLocation.horizontal;
+  return hor;
   }
   
 }
