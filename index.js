@@ -26,6 +26,8 @@ class Route{
    let numBlock=ver+hor;
   return numBlock;
   }
-  
+  estimatedTime(){
+    
+  }
   
 }
