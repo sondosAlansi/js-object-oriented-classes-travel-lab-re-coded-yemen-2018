@@ -30,16 +30,15 @@ class Route{
     let h=new Date();
     let peakHour=h.getHours();
     let numerMinuts;
-    return peakHour;
     
-   /* if(peakHour=='12'){
-      numerMinuts=this.blocksTravelled();
+    if(peakHour=='12'){
+      numerMinuts=this.blocksTravelled()/3;
       return numerMinuts;
     }
     else{
        numerMinuts=this.blocksTravelled()/2;
       return numerMinuts;
-    }*/
+    }
   }
     
   
