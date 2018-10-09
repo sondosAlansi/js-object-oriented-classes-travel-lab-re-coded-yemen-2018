@@ -32,6 +32,6 @@ class Route{
     return peakHour;
   }
     
-  }
+  
   
 }
